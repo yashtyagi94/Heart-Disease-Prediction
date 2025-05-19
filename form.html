@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body style="background-color: #111; color: white; font-family: Arial, sans-serif;">
+    <h2 style="text-align:center;">Heart Disease Prediction Form</h2>
+    <form action="/predict" method="post">
+        Age: <input type="number" name="age"><br><br>
+        Sex (1 = male, 0 = female): <input type="number" name="sex"><br><br>
+        Chest Pain Type (cp): <input type="number" name="cp"><br><br>
+        Resting BP (trestbps): <input type="number" name="trestbps"><br><br>
+        Cholesterol (chol): <input type="number" name="chol"><br><br>
+        Fasting Blood Sugar > 120 (fbs): <input type="number" name="fbs"><br><br>
+        Rest ECG (restecg): <input type="number" name="restecg"><br><br>
+        Max Heart Rate (thalach): <input type="number" name="thalach"><br><br>
+        Exercise Induced Angina (exang): <input type="number" name="exang"><br><br>
+        Oldpeak: <input type="text" name="oldpeak"><br><br>
+        Slope: <input type="number" name="slope"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
